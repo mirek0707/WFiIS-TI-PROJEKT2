@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projekt 2 - Mirosław Kołodziej</title>
+    <link rel="StyleSheet" href="projekt.css" type="text/css">
+    <script src="rest.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+
+<body>
+    <header class="header" id="myHeader">
+        <div class="tytul">
+            <img class="logo" src="img/AGH.svg" alt="logo AGH">
+            <img class="logo2" src="img/unnamed.png" alt="logo WFiIS">
+            <b class="lb">ANKIETA PIŁKARSKA</b>
+        </div>
+        <div class="menu" id="menu">
+            <nav>
+                <a class="ra " onclick="show_login()">Zaloguj się</a>
+                <a class="ra " onclick="show_register()">Zarejestruj się</a>
+                <a class="ra " onclick="show_survey()">Ankieta</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="art" id="art">
+        <article class="article" id="art1">
+            <div class="start" id="start">
+                <h2>ANKIETA PIŁKARSKA</h2>
+                <p>Mirosław Kołodziej</p>
+            </div>
+            <div class="rejestracja" id="rejestracja">
+                <!-- <fieldset>
+                    <legend id="legend"><b>Rejestracja</b></legend>
+                    <form method="post">
+                        <label for="login">Login:</label>
+                        <input type="text" id="login" name="login"><br><br>
+                        <label for="pass">Hasło</label>
+                        <input type="password" id="pass" name="pass"><br><br>
+                        <input type="button" id="button" class="button" value="Zarejestuj się" onclick="register_user(this.form)" />
+                    </form>
+                </fieldset> -->
+            </div>
+            
+            <div class="login" id="login">
+                <!-- <fieldset>
+                    <legend id="legend"><b>Logowanie</b></legend>
+                    <form method="post">
+                        <label for="login">Login:</label>
+                        <input type="text" id="login" name="login"><br><br>
+                        <label for="pass">Hasło</label>
+                        <input type="password" id="pass" name="pass"><br><br>
+                        <input type="button" id="button" class="button" value="Zaloguj się" onclick="login_user(this.form)" />
+                    </form>
+                </fieldset> -->
+            </div>
+
+            <div class="survey" id="survey">
+                <!-- <fieldset>
+                    <legend id="legend"><b>Ankieta</b></legend>
+                    <form method="post" class="surveyForm">
+                        <p>Czy interesujesz się piłką nożną?<br>
+                        <input type="radio" id="p1odp1" name="p1" value="p1o1">
+                        <label for="p1odp1">Tak</label><br>
+                        <input type="radio" id="p1odp2" name="p1" value="p1o2">
+                        <label for="p1odp2">Nie</label><br></p>
+            
+                        <p>Jak często oglądasz mecze?<br>
+                        <input type="radio" id="p2odp1" name="p2" value="p2o1">
+                        <label for="p2odp1">Kilka razy w tygodniu</label><br>
+                        <input type="radio" id="p2odp2" name="p2" value="p2o2">
+                        <label for="p2odp2">Raz w tygodniu</label><br>
+                        <input type="radio" id="p2odp3" name="p2" value="p2o3">
+                        <label for="p2odp3">Raz na miesiąc</label><br>
+                        <input type="radio" id="p2odp4" name="p2" value="p2o4">
+                        <label for="p2odp4">Kilka razy w roku</label><br>
+                        <input type="radio" id="p2odp5" name="p2" value="p2o5">
+                        <label for="p2odp5">Wcale</label><br></p>
+
+                        <p>Czy byłeś kiedykolwiek na meczu piłkarskim?<br>
+                        <input type="radio" id="p3odp1" name="p3" value="p3o1">
+                        <label for="p3odp1">Tak</label><br>
+                        <input type="radio" id="p3odp2" name="p3" value="p3o2">
+                        <label for="p3odp2">Nie</label><br></p>
+            
+                        <input type="button" id="button" class="button" value="Wyślij" onclick="sendSurvey(this.form)" />
+                    </form>
+                </fieldset> -->
+            </div>
+            
+            <div class="results" id="results">
+                <!-- <fieldset>
+                    <legend id="leg"><b>Statystyka</b></legend>
+                    <input type="button" id="showHistButton" class="showHistButton" value="Pokaż wyniki / Odśwież"
+                        onclick="showResults()" />
+                    <div class="hist1" id="hist1" style="height: 450px; width: 100%; margin-top: 30px;"></div>                    
+                    <div class="hist2" id="hist2" style="height: 450px; width: 100%; margin-top: 30px;"></div>                    
+                    <div class="hist3" id="hist3" style="height: 450px; width: 100%; margin-top: 30px;"></div>                    
+                </fieldset> -->
+            </div>
+        </article>
+    </div>
+
+    <footer>
+        <p>Mirosław Kołodziej<br>
+            <a href="mailto:kolodziejm@student.agh.edu.pl">kolodziejm@student.agh.edu.pl</a>
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    background-color: #AFD5EB;
+}
+header{
+    padding: 10px 5px;
+    overflow: hidden;
+    background-color: #0072B5;
+    position: fixed;
+    border-bottom:solid #AFD5EB 1px;
+    width: 100%;
+    min-width: 500px;
+    
+} 
+.tytul
+{
+    float: left;
+}
+.logo{
+    float: left;
+    max-width: 60px;
+    max-height: 60px;
+    transition: .5s;
+}
+.logo2{
+    float: left;
+    max-height: 60px;
+    transition: .5s;
+}
+.lb{
+    float: left;
+    font-size: 30px;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    padding: 15px;
+    
+}
+.menu {
+    float: right;
+    padding: 20px 10px;
+}
+.ra {
+    padding: 14px 16px;
+    align-items:center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .5s;
+    
+}
+.ra:hover {
+    background-color: white;
+    color: #0072B5;  
+}
+.logo:hover, .logo2:hover{
+    transform: scale(1.4);
+}
+article h2{
+    padding: 8px 16px;
+    align-items:center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+
+}
+.start p, legend{
+    padding: 14px 16px;
+    align-items:center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+.art{
+    min-width: 300px;
+    padding: 100px 150px;
+}
+article{
+    background-color: #0072B5;
+}
+.main_article{
+    transition: .5s;
+}
+.main_article:hover{
+    transform: scale(1.15);
+}
+footer{
+    text-align: center;
+    padding: 5px 5px;
+    background-color: #0072B5;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top:solid #AFD5EB 1px;
+}
+a{
+    color: white;
+}
+.rys1, .obrazki{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#bar {
+    visibility: hidden;
+    min-width: 100px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff; 
+    text-align: center; 
+    border-radius: 2px;
+    padding: 6px; 
+    position: fixed; 
+    left: 73%;
+    bottom: 46%; 
+    font-size: 10px;
+}
+
+#bar.show {
+    visibility: visible; 
+}
+p, label{
+    padding: 5px 5px;
+    color: white;
+    margin: 15px;
+}
+.article3 p{
+    padding: 5px 5px;
+    color: white;
+    margin: 15px;
+}
+.article1 .opis, .article2 .opis{
+    padding: 5px 5px;
+    color: white;
+    margin: 15px;
+    text-align: center;
+}
+math{
+    padding: 5px 5px;
+    color: white;
+}
+#o1{
+    max-height: 300px;
+}
+#przycisk1{
+    visibility: visible; 
+}
+table{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+td{
+    min-width: 300px;
+    text-align: center;
+    padding: 5px 5px;
+    color: white;
+}
+.rys2
+{
+    float: right;
+}
+.rys3{
+    float: left;
+}
+ul{
+    color: white;
+    padding-bottom: 10px;
+}
+.przycisk1{
+    padding: 3px 5px;
+    margin: 15px;
+    text-align: center;
+}
+.art1{
+    z-index: -2;
+}
+fieldset{
+    padding: 10px;
+}
